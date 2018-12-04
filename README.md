@@ -1,5 +1,5 @@
 # Classifying Tweets Based on Sentiment Using Naive Bayes 
-##Introduction
+## Introduction
 
 
 
@@ -9,15 +9,15 @@
 
 
 
-##Data 
+## Data 
 
 
 
 
 
 
-
-##Process
+ 
+## Process
 RapidMiner Process: Collecting Twitter Data 
 
 
@@ -36,7 +36,7 @@ Justification of Model and Process
 
 
 
-##Conclusion: 
+## Conclusion: 
 Insight From Data and Models
 
 
