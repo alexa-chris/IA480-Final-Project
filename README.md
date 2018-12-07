@@ -39,7 +39,7 @@ RapidMiner process used to convert excel file into usable data in RapidMiner the
 RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content and then write this into a new excel file
 
 ***Justification of Model and Process*** 
-In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. 
+In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. However, it can also be used without enourmous data sets required for other processes, such as logistic regression, which allowed us to do it with smaller subsets of tweets once the tweets had been classified and filtered based on predicited sentiment. 
 
 
 ## Conclusion: 
@@ -51,7 +51,7 @@ In this project, Naive Bayes was used. Naive Bayes was used due to its advantage
 ***Sentiment Analysis***
 One limitation of this research comes from in the biases when conducting the senitment analysis for the training data. First, we classified the Tweets based on the sentiments we believed they portrayed. However, considering Twitter is an online platform that contains various kinds of opinions, including satirical ones that would not easily be understood without understanding the goals of the author of the Tweet, there is plenty of room for human error. While we attempted to conduct as much research on the Twitter authors as possible, there were still some difficulties in how to best classify certain tweets. Second, words that do not necessarily carry a positive or negative sentiment in them are present in many of the tweets. Instead, the sentiment comes from the overall statement. Thus, some words are going to be present in the positive, negative, and overall statements. This may skew the results as the machine attempts to learn. 
 ***Images and Links***
-Many of the tweets collected contained images and links that portrated Kavanaugh in certain ways. However, RapidMiner does not look at the content of these images and links, it only takes the content from the tweet itself. Thus it does not understand the sentiment of these tweets. We chose to classify these tweets as neutral, however the actual content of the tweet (the image or link) may not have been neutral. 
+Many of the tweets collected contained images and links that portrayed Kavanaugh in certain ways. However, RapidMiner does not look at the content of these images and links, it only takes the content from the tweet itself. Thus it does not understand the sentiment of these tweets. We chose to classify these tweets as neutral, however the actual content of the tweet (the image or link) may not have been neutral. 
 ***Filtering out RTs and Links***
 
 
