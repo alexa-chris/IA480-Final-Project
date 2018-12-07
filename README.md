@@ -20,6 +20,7 @@ gnfhmhmf
  
 ## Process
 ***RapidMiner Process: Collecting Twitter Data***
+![trainingandtestingprocess](https://user-images.githubusercontent.com/42848654/49676744-00eeb280-fa49-11e8-8ab8-388ef8dc801a.png)
 
 
 
