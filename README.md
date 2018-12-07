@@ -1,6 +1,6 @@
 # Classifying Tweets Based on Sentiment Using Naive Bayes 
 ## Introduction
-This project used a RapidMiner function to collect tweets containing the #BrettKavanuagh. These collected tweets were then used as data to use naive bayes to conduct a sentiment analysis. #BrettKavanaugh was chosen because of the amount of discussion over Twitter on his supreme court nomination and the allegations of his sexual assault. Brett Kavanaugh was nominated to the Supreme Court on July 9, 2018. On September 14, 2018,the allegations of sexual assault towards Brett Kavanaugh by Dr. Christine Blasey Ford are made public. Discussion began to circulate about these allegations. On September 27, 2018 a hearing was held by the Senate Judiciary Committee. This hearing included the testimonies of both Kavanaugh and Ford. Discussion on Kavanaugh exploded at this time. 
+This project used a RapidMiner function to collect tweets containing the #BrettKavanuagh. These collected tweets were then used as data to use naive bayes to conduct a sentiment analysis. #BrettKavanaugh was chosen because of the amount of discussion over Twitter on his supreme court nomination and the allegations of his sexual assault. Brett Kavanaugh was nominated to the Supreme Court in July. Soon after he was accused of sexual assault. Discussion arose across the U.S. on this topic, especially during his confirmation hearings and testimonies. Kavanaugh was later appointed to the supreme court. Discussion on Kavanaugh has continued since 
 
 
 
