@@ -35,8 +35,8 @@ RapidMiner process used to convert excel file into usable data in RapidMiner the
 
 ***RapidMiner Process: Training and Testing***
 
-![trainingandtestingprocess](https://user-images.githubusercontent.com/42848654/49676929-f7197f00-fa49-11e8-9488-030d6522e017.png)
-RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content
+![finalprocess](https://user-images.githubusercontent.com/42848654/49677019-7e66f280-fa4a-11e8-8636-019b132dbf9d.png)
+RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content and then write this into a new excel file
 
 ***Justification of Model and Process*** 
 
