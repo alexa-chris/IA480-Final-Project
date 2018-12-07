@@ -1,16 +1,9 @@
 # Classifying Tweets Based on Sentiment Using Naive Bayes 
 ## Introduction
-This project used a RapidMiner function to collect tweets containing #BrettKavanuagh. These collected tweets were then used as data to use naive bayes to conduct a sentiment analysis on the twitter. #BrettKavanaugh was chosen because of the amount of discussion over Twitter on his supreme court nomination and the allegations of his sexual assault. Brett Kavanaugh was nominated to the Supreme Court in July. Soon after he was accused of sexual assault. Discussion arose across the U.S. on this topic, especially during his confirmation hearings and testimonies. Kavanaugh was later appointed to the supreme court in early October. However, controversy over Kavanaugh is still discussed on Twitter as some continue to question his eligibility to serve as a supreme court justice. The ultimate goal of using collected tweets was to conduct 
-
-
-
-
-
-
-
+This project used a RapidMiner function to collect tweets containing #BrettKavanuagh. These collected tweets were then used as data to use Naïve Bayes to conduct a sentiment analysis on the twitter. #BrettKavanaugh was chosen because of the amount of discussion over Twitter on his Supreme Court nomination and the allegations of his sexual assault by multiple women. Brett Kavanaugh was nominated to the Supreme Court in July. Soon after he was accused of sexual assault. Discussion arose across the U.S. on this topic, especially during his confirmation hearings and testimonies. Kavanaugh was later appointed to the Supreme Court in early October. However, controversy over Kavanaugh is still discussed on Twitter as some continue to question his eligibility to serve as a Supreme Court justice. The ultimate goal of using collected tweets was to teach the machine to identify tweets based on whether they were positive (supporting Brett Kavanaugh’s confirmation to the Supreme Court), negative (opposing Brett Kavanaugh’s confirmation to the Supreme Court), or neutral (tweets that were not related to the Supreme Court nomination but referenced Kavanaugh in other contexts, or that were not positive or negative about Kavanaugh). 
 
 ## Data 
-
+The data used was tweets containing the keyword #BrettKavanaugh. 1,500 tweets were collected in total. These tweets were collected into two different excel files so that ten percent of the tweets could be hand-classified for training data. There were 160 tweets collected for training data. A sentiment analysis was conducted by hand on these tweets, categorizing them as positive (supporting Brett Kavanaugh’s confirmation), negative (opposing Brett Kavanaugh’s confirmation), or neutral (tweets that were not related to the Supreme Court nomination but referenced Kavanaugh in other contexts, or that were not positive or negative about his confirmation). After the sentiment analysis, 81 tweets classified as positive, 45 tweets were classified as neutral, and 34 were classified as negative. These hand classified tweets were then used as training data for the Naïve Bayes model.
 
 
 
@@ -53,11 +46,7 @@ One limitation of this research comes from in the biases when conducting the sen
 ***Images and Links***
 Many of the tweets collected contained images and links that portrayed Kavanaugh in certain ways. However, RapidMiner does not look at the content of these images and links, it only takes the content from the tweet itself. Thus it does not understand the sentiment of these tweets. We chose to classify these tweets as neutral, however the actual content of the tweet (the image or link) may not have been neutral. 
 ***Filtering out RTs and Links***
+One way to improve this model would be to filter out any tweets that contained images or links so that they would not be used as training data. One way this could have been done is by classifying these tweets as image or link if they contained them. This would help the model learn while also removing them from the neutral category. Thus tweets that actually contained neutral content rather than just links or images. 
 
-
-
-
-
-
-Suggestions for Improvement ! 
+***Suggestions for Improvement*** 
 
