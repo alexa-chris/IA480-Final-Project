@@ -30,9 +30,13 @@ Excel file in which tweets were hand-labelled by according to sentiment (positiv
 
 ***RapidMiner Process: Process Data***
 
+![collect_tweet_process 1](https://user-images.githubusercontent.com/42848654/49676887-c3d6f000-fa49-11e8-92b3-129c3f0933ff.png)
+RapidMiner process used to convert excel file into usable data in RapidMiner then store said data to be used for training and testing models
 
 ***RapidMiner Process: Training and Testing***
 
+![trainingandtestingprocess](https://user-images.githubusercontent.com/42848654/49676929-f7197f00-fa49-11e8-9488-030d6522e017.png)
+RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content
 
 ***Justification of Model and Process*** 
 
