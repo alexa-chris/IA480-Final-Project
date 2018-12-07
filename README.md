@@ -5,7 +5,6 @@ This project used a RapidMiner function to collect tweets containing #BrettKavan
 
 
 
-gnfhmhmf
 
 
 
@@ -20,13 +19,14 @@ gnfhmhmf
  
 ## Process
 ***RapidMiner Process: Collecting Twitter Data***
-![trainingandtestingprocess](https://user-images.githubusercontent.com/42848654/49676744-00eeb280-fa49-11e8-8ab8-388ef8dc801a.png)
 
-
+![tweetcollection](https://user-images.githubusercontent.com/42848654/49676828-6d69b180-fa49-11e8-875f-cc0da4b9ad35.png)
+RapidMiner process used to collect tweets
 
 ***Process: Classifying Twitter Data*** 
 
-
+![handlabelledexcel](https://user-images.githubusercontent.com/42848654/49676845-82464500-fa49-11e8-8a4d-54bdbb28d73b.JPG)
+Excel file in which tweets were hand-labelled by according to sentiment (positive, negative, neutral) 
 
 ***RapidMiner Process: Process Data***
 
