@@ -39,7 +39,7 @@ RapidMiner process used to convert excel file into usable data in RapidMiner the
 RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content and then write this into a new excel file
 
 ***Justification of Model and Process*** 
-
+In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. 
 
 
 ## Conclusion: 
