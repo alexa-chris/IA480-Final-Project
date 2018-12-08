@@ -32,11 +32,36 @@ RapidMiner process used to convert excel file into usable data in RapidMiner the
 RapidMiner process used to import the tweet data and then use this data to train the program to predict which sentiment label will be applied to each tweet based on content and then write this into a new excel file
 
 ***Justification of Model and Process*** 
-In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. However, it can also be used without enourmous data sets required for other processes, such as logistic regression, which allowed us to do it with smaller subsets of tweets once the tweets had been classified and filtered based on predicited sentiment. 2,000 tweets were collected so that there was a suffi
+In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. However, it can also be used without enormous data sets required for other processes, such as logistic regression, which allowed us to do it with smaller subsets of tweets once the tweets had been classified and filtered based on predicited sentiment. 2,000 tweets were collected so that there was a suffi
 
 
 ## Conclusion: 
+
 ### Insight From Data and Models
+***Visualizations from Orignal Training Data/Collected Tweets
+
+![trainingdatawordcloud](https://user-images.githubusercontent.com/42848654/49689912-69e03400-faf6-11e8-9480-92c0bb5010f1.png)
+
+Screenshot of wordcloud created in Voyant Tools showing relative word frequency in the original training data. Contains many of the same words in similar frequencies to the wordcloud created from final set of classified data.
+
+![collectedtweetsfrequencies](https://user-images.githubusercontent.com/42848654/49689952-fa1e7900-faf6-11e8-8ccb-b9b65278240c.JPG)
+
+Screenshot from Voyant Tools of chart showing relative frequencies of most common words found in original tweets collected
+
+***Visualizations from Tweets Classified in RapidMiner
+
+![alltweetswordcloud](https://user-images.githubusercontent.com/42848654/49689981-87fa6400-faf7-11e8-8ad2-88b2059ccc4b.png)
+
+Screenshot of wordcloud created in Voyant Tools showings relaetive word frequency in the data set of tweets that had predictied sentiment labels applied to them by RapidMiner
+
+![alltweetsfrequencies](https://user-images.githubusercontent.com/42848654/49689996-c7c14b80-faf7-11e8-8781-f2407a78f8b6.JPG)
+
+Screenshot of a chart created in Voyant Tools showing frequency of most used words in the entire set of collected tweets. When compared to the frequency chart from the training data, it becomes apparent that, while there is cross-over between some of the words, there are different words as well. There is also a similarity between the patterns in the charts, indicating proporitonal similarities between the two. Another interesting observation is that some of the patterns between the two are similar despite them being differnt words, such as the similarty in shape between the the lines for "anonymous" in the first and "kavanaugh" in the second
+
+***Visualizations of "Positively" Labelled Tweet Data
+
+
+
 
 
 
