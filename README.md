@@ -8,6 +8,18 @@ This project applied a RapidMiner function to collect tweets containing #brettka
 
 The data used was tweets containing the keyword #brettkavanaugh. 1,600 tweets were collected in total. These tweets were collected into two different excel files so that ten percent of the tweets could be hand-classified for training data. There were 160 tweets collected for training data. A sentiment analysis was conducted by hand on these tweets, categorizing them as positive (supporting Brett Kavanaugh’s confirmation), negative (opposing Brett Kavanaugh’s confirmation), or neutral (tweets that were not related to the Supreme Court nomination but referenced Kavanaugh in other contexts, or that were not positive or negative about his confirmation). After the sentiment analysis, 81 tweets classified as positive, 45 tweets were classified as neutral, and 34 were classified as negative. These hand classified tweets were then used as training data for the Naïve Bayes model.
 
+#### ***Quantitative Visualization of Training Data***
+
+![oflabelledtweetsintraining](https://user-images.githubusercontent.com/42848654/49690856-aebf9700-fb05-11e8-8672-7d3cd258796a.PNG)
+
+Screenshot of bar graph created in Tableau showing how many tweets were labelled by hand as "positive", "negative", and "neutral" in the original set of tweets that were then used to train RapidMiner to predict which sentiment label to apply.
+
+#### ***Quantitative Visualization of Tweets Classified in RapidMiner***
+
+![oflabelledtweetsinpostclassify](https://user-images.githubusercontent.com/42848654/49690911-59d05080-fb06-11e8-8816-88559bebc300.PNG)
+
+Screenshot of bar graph created in Tableau showing how many tweets were labelled by RapidMiner. When the two graphs are compared, one can see that, proportionally, the graphs are about the same. When RapidMiner was given access to the large amount of unlabelled tweets, it was able to label them in about the same proportion that they were hand labelled. This could be influenced by the high amount of retweets in the data set, so this correlation does not necessarily indicate accurate predictions. 
+
 ## Process
 
 #### ***RapidMiner Process: Collecting Twitter Data***
@@ -33,18 +45,6 @@ RapidMiner process used to import the tweet data and then use this data to train
 #### ***Justification of Model and Process*** 
 In this project, Naive Bayes was used. Naive Bayes was used due to its advantages for this type of research. Naive Bayes is often used in text analysis, including sentiment analysis, which made it a clear choice for this project. It also works very quickly and can handle large data sets relatively well which was important due to the sheer number of tweets collected. However, it can also be used without enormous data sets required for other processes, such as logistic regression, which allowed us to do it with smaller subsets of tweets once the tweets had been classified and filtered based on predicted sentiment.  2,000 was chosen as the parameter for the number of tweets collected. However, the function in RapidMiner only collected 1,600 tweets, likely due to only 1,600 tweets being available on the subject at that time. 2,000 tweets were chosen as the parameter so that there was a sufficient amount of training data. Ten percent of those tweets were used as training data so there needed to be enough tweets for the model to learn from and enough data for it to be sufficiently tested. 1,600 tweets still seemed to provide this. #brettkavanaugh was chosen as the keyword due to the prevalence of differing opinions on his appointment to the Supreme Court. There needed to be a significant amount of differing opinions so that all classification categories were well represented in the training data. Recent tweets about this topic were also used for this model. Recent tweets were chosen because popular tweets may have skewed the sentiment if one side tweeted more than another. Recent tweets provided a more balanced number of tweets for each category. 
 ## Conclusion: 
-
-#### ***Quantitative Visualization of Training Data***
-
-![oflabelledtweetsintraining](https://user-images.githubusercontent.com/42848654/49690856-aebf9700-fb05-11e8-8672-7d3cd258796a.PNG)
-
-Screenshot of bar graph created in Tableau showing how many tweets were labelled by hand as "positive", "negative", and "neutral" in the original set of tweets that were then used to train RapidMiner to predict which sentiment label to apply.
-
-#### ***Quantitative Visualization of Tweets Classified in RapidMiner***
-
-![oflabelledtweetsinpostclassify](https://user-images.githubusercontent.com/42848654/49690911-59d05080-fb06-11e8-8816-88559bebc300.PNG)
-
-Screenshot of bar graph created in Tableau showing how many tweets were labelled by RapidMiner. When the two graphs are compared, one can see that, proportionally, the graphs are about the same. When RapidMiner was given access to the large amount of unlabelled tweets, it was able to label them in about the same proportion that they were hand labelled. This could be influenced by the high amount of retweets in the data set, so this correlation does not necessarily indicate accurate predictions. 
 
 #### ***Visualizations from Orignal Training Data/Collected Tweets***
 
