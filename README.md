@@ -68,7 +68,15 @@ Screenshot of wordcloud showing relative frequency of top 105 words created out 
 
 Screenshot of the chart created showing relative frequencies of the top 5 words in the tweets labelled by RapidMiner as "positive". 
 
+***Visualizations of "Negatively" Labelled Tweet Data
 
+![negativetweetwordcloud](https://user-images.githubusercontent.com/42848654/49690264-e295bf00-fafb-11e8-9de1-39cda942014c.png)
+
+Screenshot of wordcloud showing relative frequency of top 105 words in the tweets assigned a "negative" sentiment by RapidMiner
+
+![negativeschart](https://user-images.githubusercontent.com/42848654/49690310-ab73dd80-fafc-11e8-8260-e593681abffa.PNG)
+
+Screenshot of chart showing frequencies of the top 5 words in tweets assigned a "negative" sentiment in RapidMiner. When compared to the positvely labelled tweet chart, one can see that the top 4 "words" in each are the same, while in the first chart contains "democrats" in high frequency while the second contains "metoo in high frequency.
 
 
 ### Limitations of Research
