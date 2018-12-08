@@ -49,7 +49,7 @@ Screenshot of bar graph created in Tableau showing how many tweets were labelled
 
 ![oflabelledtweetsinpostclassify](https://user-images.githubusercontent.com/42848654/49690911-59d05080-fb06-11e8-8816-88559bebc300.PNG)
 
-Screenshot of bar graph created in Tableau showing how many tweets were labelled by RapidMiner. 
+Screenshot of bar graph created in Tableau showing how many tweets were labelled by RapidMiner. When the two graphs are compared, one can see that, proportionalty, the graphs are about the same. When RapidMiner was given access to the large amount of unlabelled tweets, it was able to label them in about the same proportion that they were hand labelled. This could be influenced by the high amount of retweets in the data set, so this correlation does not necessarily indicate accurate predictions. 
 
 ***Visualizations from Orignal Training Data/Collected Tweets
 
