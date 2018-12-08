@@ -64,7 +64,7 @@ Screenshot of wordcloud created in Voyant Tools showings relaetive frequency of 
 
 ![alltweetsfrequencies](https://user-images.githubusercontent.com/42848654/49689996-c7c14b80-faf7-11e8-8781-f2407a78f8b6.JPG)
 
-Screenshot of a chart created in Voyant Tools showing frequency of most used words in the entire set of collected tweets. When compared to the frequency chart from the training data, it becomes apparent that, while there is cross-over between some of the words, there are different words as well. There is also a similarity between the patterns in the charts, indicating proporitonal similarities between the two. Another interesting observation is that some of the patterns between the two are similar despite them being differnt words, such as the similarty in shape between the the lines for "anonymous" in the first and "kavanaugh" in the second
+Screenshot of a chart created in Voyant Tools showing frequency of most used words in the entire set of collected tweets. When compared to the frequency chart from the training data, it becomes apparent that, while there is cross-over between some of the words, there are different words as well. There is also a similarity between the patterns in the charts, indicating proporitonal similarities between the two. Another interesting observation is that some of the patterns between the two are similar despite them being differnt words, such as the similarty in shape between the the lines for "anonymous" in the first and "kavanaugh" in the second.
 
 #### ***Visualizations of "Positive" Labelled Tweet Data***
 
@@ -80,17 +80,17 @@ Screenshot of the chart created showing relative frequencies of the top 5 words 
 
 ![negativetweetwordcloud](https://user-images.githubusercontent.com/42848654/49690264-e295bf00-fafb-11e8-9de1-39cda942014c.png)
 
-Screenshot of wordcloud showing relative frequency of top 105 words in the tweets assigned a "negative" sentiment by RapidMiner
+Screenshot of wordcloud showing relative frequency of top 105 words in the tweets assigned a "negative" sentiment by RapidMiner.
 
 ![negativeschart](https://user-images.githubusercontent.com/42848654/49690310-ab73dd80-fafc-11e8-8260-e593681abffa.PNG)
 
-Screenshot of chart showing frequencies of the top 5 words in tweets assigned a "negative" sentiment in RapidMiner. When compared to the positvely labelled tweet chart, one can see that the top 4 "words" in each are the same, while in the first chart contains "democrats" in high frequency while the second contains "metoo in high frequency.
+Screenshot of chart showing frequencies of the top 5 words in tweets assigned a "negative" sentiment in RapidMiner. When compared to the positvely labelled tweet chart, one can see that the top 4 "words" in each are the same, while in the first chart contains "democrats" in high frequency while the second contains "metoo" in high frequency.
 
 #### ***Visualizations from "Neutral" Labelled Tweet Data***
 
 ![neutralwordcloud](https://user-images.githubusercontent.com/42848654/49690451-52597900-faff-11e8-89f9-31b0ce94ca3b.png)
 
-Screenshot of wordcloud showing frequency of top 105 terms using only the tweets labelled as a "neutral" sentiment by RapidMiner
+Screenshot of wordcloud showing frequency of top 105 terms using only the tweets labelled as a "neutral" sentiment by RapidMiner.
 
 ![neutraltweetgraph](https://user-images.githubusercontent.com/42848654/49690463-71f0a180-faff-11e8-8a21-712d02790f55.PNG)
 
@@ -119,7 +119,7 @@ One limitation of this research comes from the biases when conducting the sentim
 
 Many of the tweets collected contained images and links that portrayed Kavanaugh in certain ways. However, RapidMiner does not look at the content of these images and links, it only takes the content from the tweet itself. Thus it does not understand the sentiment of these tweets. We chose to classify these tweets as neutral, however the actual content of the tweet (the image or link) may not have been neutral. 
 
-***Suggestions for Improvement***
+### Suggestions for Improvement
 
 ***Filtering out Images and Links***
 
