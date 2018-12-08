@@ -38,6 +38,19 @@ In this project, Naive Bayes was used. Naive Bayes was used due to its advantage
 ## Conclusion: 
 
 ### Insight From Data and Models
+
+***Quantitative Visualization of Training Data
+
+![oflabelledtweetsintraining](https://user-images.githubusercontent.com/42848654/49690856-aebf9700-fb05-11e8-8672-7d3cd258796a.PNG)
+
+Screenshot of bar graph created in Tableau showing how many tweets were labelled by hand as "positive", "negative", and "neutral" in the original set of tweets that were then used to train RapidMiner to predict which sentiment label to apply.
+
+***Quantitative Visualization of Tweets Classified in RapidMiner
+
+![oflabelledtweetsinpostclassify](https://user-images.githubusercontent.com/42848654/49690911-59d05080-fb06-11e8-8816-88559bebc300.PNG)
+
+Screenshot of bar graph created in Tableau showing how many tweets were labelled by RapidMiner. 
+
 ***Visualizations from Orignal Training Data/Collected Tweets
 
 ![trainingdatawordcloud](https://user-images.githubusercontent.com/42848654/49689912-69e03400-faf6-11e8-9480-92c0bb5010f1.png)
