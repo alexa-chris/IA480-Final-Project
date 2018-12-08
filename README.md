@@ -58,7 +58,7 @@ Screenshot of wordcloud created in Voyant Tools showings relaetive frequency of 
 
 Screenshot of a chart created in Voyant Tools showing frequency of most used words in the entire set of collected tweets. When compared to the frequency chart from the training data, it becomes apparent that, while there is cross-over between some of the words, there are different words as well. There is also a similarity between the patterns in the charts, indicating proporitonal similarities between the two. Another interesting observation is that some of the patterns between the two are similar despite them being differnt words, such as the similarty in shape between the the lines for "anonymous" in the first and "kavanaugh" in the second
 
-***Visualizations of "Positively" Labelled Tweet Data
+***Visualizations of "Positive" Labelled Tweet Data
 
 ![positivetweetwordcloud](https://user-images.githubusercontent.com/42848654/49690119-934e8f00-faf9-11e8-9e31-0ca97c931bc5.png)
 
@@ -68,7 +68,7 @@ Screenshot of wordcloud showing relative frequency of top 105 words created out 
 
 Screenshot of the chart created showing relative frequencies of the top 5 words in the tweets labelled by RapidMiner as "positive". 
 
-***Visualizations of "Negatively" Labelled Tweet Data
+***Visualizations of "Negative" Labelled Tweet Data
 
 ![negativetweetwordcloud](https://user-images.githubusercontent.com/42848654/49690264-e295bf00-fafb-11e8-9de1-39cda942014c.png)
 
@@ -77,6 +77,23 @@ Screenshot of wordcloud showing relative frequency of top 105 words in the tweet
 ![negativeschart](https://user-images.githubusercontent.com/42848654/49690310-ab73dd80-fafc-11e8-8260-e593681abffa.PNG)
 
 Screenshot of chart showing frequencies of the top 5 words in tweets assigned a "negative" sentiment in RapidMiner. When compared to the positvely labelled tweet chart, one can see that the top 4 "words" in each are the same, while in the first chart contains "democrats" in high frequency while the second contains "metoo in high frequency.
+
+***Visualizations from "Neutral" Labelled Tweet Data
+
+![neutralwordcloud](https://user-images.githubusercontent.com/42848654/49690451-52597900-faff-11e8-89f9-31b0ce94ca3b.png)
+Screenshot of wordcloud showing frequency of top 105 terms using only the tweets labelled as a "neutral" sentiment by RapidMiner
+
+![neutraltweetgraph](https://user-images.githubusercontent.com/42848654/49690463-71f0a180-faff-11e8-8a21-712d02790f55.PNG)
+
+Screenshot of graph showing relative frequency of top 5 terms appearing in tweets RapidMiner judged to have a "neutral" sentiment. When compared to both the "positive" and "negative" charts discuessed previously, the differences are immense. Not only is there only one common term between the three ("brettkavanugh"), but the pattern of the frequency in which the other top four terms appear is entirely differnt than the other two. 
+
+***Visualizations from Tweets Filtered To Remove Retweets
+
+![nortwordcloud](https://user-images.githubusercontent.com/42848654/49690574-42db2f80-fb01-11e8-85be-807f01c4ccad.png)
+
+Screenshot of wordcloud created after all the labelled tweets were subjected to an additonal filter in which all tweets containing the term "RT", denoting a "Retweet", were filtered out and then written into a new excel file. This allowed analysis to be performed on only unique, individual tweets. 
+
+![nortgraph](https://user-images.githubusercontent.com/42848654/49690649-5dfa6f00-fb02-11e8-9a3e-699d229fe194.PNG)
 
 
 ### Limitations of Research
