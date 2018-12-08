@@ -42,7 +42,7 @@ In this project, Naive Bayes was used. Naive Bayes was used due to its advantage
 
 ![trainingdatawordcloud](https://user-images.githubusercontent.com/42848654/49689912-69e03400-faf6-11e8-9480-92c0bb5010f1.png)
 
-Screenshot of wordcloud created in Voyant Tools showing relative word frequency in the original training data. Contains many of the same words in similar frequencies to the wordcloud created from final set of classified data.
+Screenshot of wordcloud created in Voyant Tools showing relative word frequency of top 105 words in the original training data. Contains many of the same words in similar frequencies to the wordcloud created from final set of classified data.
 
 ![collectedtweetsfrequencies](https://user-images.githubusercontent.com/42848654/49689952-fa1e7900-faf6-11e8-8ccb-b9b65278240c.JPG)
 
@@ -52,7 +52,7 @@ Screenshot from Voyant Tools of chart showing relative frequencies of most commo
 
 ![alltweetswordcloud](https://user-images.githubusercontent.com/42848654/49689981-87fa6400-faf7-11e8-8ad2-88b2059ccc4b.png)
 
-Screenshot of wordcloud created in Voyant Tools showings relaetive word frequency in the data set of tweets that had predictied sentiment labels applied to them by RapidMiner
+Screenshot of wordcloud created in Voyant Tools showings relaetive frequency of top 105 words in the data set of tweets that had predictied sentiment labels applied to them by RapidMiner
 
 ![alltweetsfrequencies](https://user-images.githubusercontent.com/42848654/49689996-c7c14b80-faf7-11e8-8781-f2407a78f8b6.JPG)
 
@@ -60,7 +60,13 @@ Screenshot of a chart created in Voyant Tools showing frequency of most used wor
 
 ***Visualizations of "Positively" Labelled Tweet Data
 
+![positivetweetwordcloud](https://user-images.githubusercontent.com/42848654/49690119-934e8f00-faf9-11e8-9e31-0ca97c931bc5.png)
 
+Screenshot of wordcloud showing relative frequency of top 105 words created out of only the tweets that RapidMiner had labelled as posessing a "positive" sentiment. The difference between this and the wordcloud from all the tweets becomes immediately apparent.
+
+![positivegraph](https://user-images.githubusercontent.com/42848654/49690161-27205b00-fafa-11e8-9f2b-065ce03670be.PNG)
+
+Screenshot of the chart created showing relative frequencies of the top 5 words in the tweets labelled by RapidMiner as "positive". 
 
 
 
