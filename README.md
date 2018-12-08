@@ -81,6 +81,7 @@ Screenshot of chart showing frequencies of the top 5 words in tweets assigned a 
 ***Visualizations from "Neutral" Labelled Tweet Data
 
 ![neutralwordcloud](https://user-images.githubusercontent.com/42848654/49690451-52597900-faff-11e8-89f9-31b0ce94ca3b.png)
+
 Screenshot of wordcloud showing frequency of top 105 terms using only the tweets labelled as a "neutral" sentiment by RapidMiner
 
 ![neutraltweetgraph](https://user-images.githubusercontent.com/42848654/49690463-71f0a180-faff-11e8-8a21-712d02790f55.PNG)
@@ -95,6 +96,7 @@ Screenshot of wordcloud created after all the labelled tweets were subjected to 
 
 ![nortgraph](https://user-images.githubusercontent.com/42848654/49690649-5dfa6f00-fb02-11e8-9a3e-699d229fe194.PNG)
 
+Screenshot of chart created showing relative frequency of top 5 terms appearing in tweets after they had been filtered again to remove all retweets. Since this chart was formed using data containing "positive", "negative", and "neutral" labels, it makes sense to compare it to the chart from the full set of classified tweets. When one does this, they can observe the differences. They only have one term in common ("brettkavanugh") and the patterns in which the other top terms appear is different. In the No-RT graph, there is a clear divide between the apperances of the top 3 words and the top two words, a divide that does not exist in the chart pertaining to all the classified tweets. 
 
 ### Limitations of Research
 ***Sentiment Analysis***
